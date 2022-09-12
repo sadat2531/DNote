@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- This is menu item of Main page used as Add note button -->
+    <item
+        android:id="@+id/addNote_itemId"
+        android:title="Add Note"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        />
+
+    <!-- This is menu item of Main page as About App button -->
+    <item
+        android:id="@+id/aboutApp_itemId"
+        android:title="About App"
+        app:showAsAction="never"
+        />
+
+</menu>
+
+
+

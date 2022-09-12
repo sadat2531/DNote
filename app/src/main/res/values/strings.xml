@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">D Note</string>
+    <string name="AlertTitle">Warning!</string>
+    <string name="AlertMessage">Do You Want To Exit?</string>
+    <string name="AlertMessage2">Do You Want To Delete This Note?</string>
+    <string name="PositiveButtonTxt">Yes</string>
+    <string name="NegativeButtonTxt">No</string>
+    <string name="ToastTxt2">Note is Deleted</string>
+    <string name="ToastTxt3">Change Not Saved</string>
+    <string name="ToastTxt4">App Closed</string>
+    <string name="ToastTxt5">Operation Canceled</string>
+
+
+    <string name="InfoOfDeveloper">
+
+        This is a Note App which is Developed by a group of developers. Group members list is given below.\n\n
+
+        Name: Nazmus Sadat \n
+        ID: 193-15-13559 \n
+        Section: D \n
+        Phone: 01701759493 \n\n\n
+
+
+        Name: Emon Tahsin Eyon \n
+        ID: 193-15-13405 \n
+        Section: D \n
+        Phone: N/A \n\n\n
+
+
+        Name: Mudh. Abul Hasnat\n
+        ID: 193-15-13578 \n
+        Section: D \n
+        Phone: N/A \n\n\n
+
+
+        Name: Sadia Sultana Taspria \n
+        ID: 193-15-13563 \n
+        Section: D \n
+        Phone: N/A \n
+
+
+    </string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Note_view_page">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_margin="10dp">
+
+        <!-- This Text view is for showing note Title on note view page -->
+        <TextView
+            android:id="@+id/titleViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textIsSelectable="true"
+            android:layout_margin="5dp"
+            android:textSize="22sp"
+            android:textStyle="normal"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- This Text view is for showing Note on note view page -->
+            <TextView
+                android:id="@+id/noteViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Note"
+                android:textIsSelectable="true"
+                android:layout_margin="5dp"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
+

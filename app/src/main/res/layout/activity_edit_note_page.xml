@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit_note_page">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_margin="10dp">
+
+        <!-- This EditText is for editing the previously saved note Title -->
+        <EditText
+            android:id="@+id/edit_titleEditId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textIsSelectable="true"
+            android:layout_margin="5dp"
+            android:textSize="22sp"
+            android:gravity="start"
+            android:textStyle="normal"
+            android:background="@null"/>
+
+        <!-- This EditText is for editing the previously saved note -->
+        <EditText
+            android:id="@+id/edit_noteEditId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Note"
+            android:textIsSelectable="true"
+            android:layout_margin="5dp"
+            android:textSize="17sp"
+            android:gravity="start"
+            android:textStyle="normal"
+            android:background="@null"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
